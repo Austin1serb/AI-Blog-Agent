@@ -1,4 +1,6 @@
 .env
-/__pycache__
+__pycache__
 .langgraph_api
-/venv
+venv
+.git
+.DS_Store

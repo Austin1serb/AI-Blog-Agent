@@ -102,7 +102,7 @@ def get_keywords_for_gpt() -> str:
     Extracts keywords from 'article.txt', formats them,
     and returns a list of keywords for GPT to use in its prompt.
     """
-    single_keywords, multi_keywords = extract_all_keywords(file_path='article.txt')
+    single_keywords, multi_keywords = extract_all_keywords(file_path='./tests/article.txt')
     # Merge multi-word keywords with single-word keywords
     keywords = multi_keywords + single_keywords
     return sort_for_model(keywords)

@@ -6,8 +6,8 @@ from langchain_core.messages import SystemMessage, HumanMessage
 import logging
 
 # Import functions
-from prompt_builder import build_prompt
-from tokenize_text import get_keywords_for_gpt  # Ensure this function is imported
+from core.prompt_builder import build_prompt
+from tools.tokenize_text import get_keywords_for_gpt  # Ensure this function is imported
 
 # Initialize logging
 logging.basicConfig(level=logging.INFO)
