@@ -1,0 +1,542 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - web design",
+        "totalResults": "6380000000",
+        "searchTerms": "web design",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "32b1183c197cc490f"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - web design",
+        "totalResults": "6380000000",
+        "searchTerms": "web design",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "32b1183c197cc490f"
+      }
+    ]
+  },
+  "context": {
+    "title": "AI-BLOG-AGENT"
+  },
+  "searchInformation": {
+    "searchTime": 0.197284,
+    "formattedSearchTime": "0.20",
+    "totalResults": "6380000000",
+    "formattedTotalResults": "6,380,000,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "web_design",
+      "htmlTitle": "web_design",
+      "link": "https://www.reddit.com/r/web_design/",
+      "displayLink": "www.reddit.com",
+      "snippet": "r/web_design: Web Design.",
+      "htmlSnippet": "r/web_design: <b>Web Design</b>.",
+      "formattedUrl": "https://www.reddit.com/r/web_design/",
+      "htmlFormattedUrl": "https://www.reddit.com/r/<b>web</b>_<b>design</b>/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS18fVMsYOjFdAGcxaFkTxJMx-2OAL-rrvuyWUQ72YDj6uuCXsY57qp6uRn&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://styles.redditmedia.com/t5_2qh1m/styles/communityIcon_cpdgauc6r8g01.png",
+            "theme-color": "#000000",
+            "og:image:width": "256",
+            "og:type": "website",
+            "twitter:card": "summary",
+            "twitter:title": "r/web_design",
+            "og:site_name": "Reddit",
+            "og:title": "r/web_design",
+            "og:image:height": "256",
+            "bingbot": "noarchive",
+            "msapplication-navbutton-color": "#000000",
+            "og:description": "Web Design",
+            "twitter:image": "https://styles.redditmedia.com/t5_2qh1m/styles/communityIcon_cpdgauc6r8g01.png",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "twitter:site": "@reddit",
+            "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+            "apple-mobile-web-app-capable": "yes",
+            "og:ttl": "600",
+            "og:url": "https://www.reddit.com/r/web_design/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://styles.redditmedia.com/t5_2qh1m/styles/communityIcon_cpdgauc6r8g01.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Web design - Wikipedia",
+      "htmlTitle": "<b>Web design</b> - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Web_design",
+      "displayLink": "en.wikipedia.org",
+      "snippet": "The term \"web design\" is normally used to describe the design process relating to the front-end (client side) design of a website including writing markup. Web\u00a0...",
+      "htmlSnippet": "The term &quot;<b>web design</b>&quot; is normally used to describe the design process relating to the front-end (client side) design of a website including writing markup. Web&nbsp;...",
+      "formattedUrl": "https://en.wikipedia.org/wiki/Web_design",
+      "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>Web</b>_<b>design</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQITqjgeYGlwkwyl76s1uhp7YiMENKjYs6l5yY8Zyj-d3zmMOSUdCSSqE4&s",
+            "width": "220",
+            "height": "191"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "theme-color": "#eaecf0",
+            "og:type": "website",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "og:title": "Web design - Wikipedia",
+            "format-detection": "telephone=no"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Progressive_enhancement_web_design_pyramid_%28HTML%2C_CSS%2C_JS%29.svg/220px-Progressive_enhancement_web_design_pyramid_%28HTML%2C_CSS%2C_JS%29.svg.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Website Design | Design a Website That Sets You Apart | Wix.com",
+      "htmlTitle": "Website <b>Design</b> | <b>Design</b> a Website That Sets You Apart | Wix.com",
+      "link": "https://www.wix.com/website/design",
+      "displayLink": "www.wix.com",
+      "snippet": "Design: Creating the visual and structural aspects in your website builder, including layout and aesthetics. Content & content visualization: Developing and\u00a0...",
+      "htmlSnippet": "<b>Design</b>: Creating the visual and structural aspects in your website builder, including layout and aesthetics. Content &amp; content visualization: Developing and&nbsp;...",
+      "formattedUrl": "https://www.wix.com/website/design",
+      "htmlFormattedUrl": "https://www.wix.com/<b>web</b>site/<b>design</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIvP-_FYhMfwTTKJeRjA_I6iGPf39B5Gv8lR08VWC8nlWavnXe-1oDHFOC&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://static.wixstatic.com/media/dea07e_b3ec07b154784e6c9df3f25d380a624b~mv2.jpg/v1/fill/w_1200,h_630,al_c/dea07e_b3ec07b154784e6c9df3f25d380a624b~mv2.jpg",
+            "og:image:width": "1200",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Website Design | Design a Website That Sets You Apart | Wix.com",
+            "og:site_name": "Wix.com",
+            "skype_toolbar": "skype_toolbar_parser_compatible",
+            "og:title": "Website Design | Design a Website That Sets You Apart | Wix.com",
+            "og:image:height": "630",
+            "og:description": "Build a strong online presence with a complete website design solution. Leverage 1000\u2019s of design features, customizable templates and the power of AI.",
+            "twitter:image": "https://static.wixstatic.com/media/dea07e_b3ec07b154784e6c9df3f25d380a624b~mv2.jpg/v1/fill/w_1200,h_630,al_c/dea07e_b3ec07b154784e6c9df3f25d380a624b~mv2.jpg",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Build a strong online presence with a complete website design solution. Leverage 1000\u2019s of design features, customizable templates and the power of AI.",
+            "og:url": "https://www.wix.com/website/design",
+            "format-detection": "telephone=no"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://static.wixstatic.com/media/dea07e_b3ec07b154784e6c9df3f25d380a624b~mv2.jpg/v1/fill/w_1200,h_630,al_c/dea07e_b3ec07b154784e6c9df3f25d380a624b~mv2.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Is Web Design over?. AI still can't design. We lost anyway. | by ...",
+      "htmlTitle": "Is <b>Web Design</b> over?. AI still can&#39;t design. We lost anyway. | by ...",
+      "link": "https://michalmalewicz.medium.com/is-web-design-over-c14fe246125e",
+      "displayLink": "michalmalewicz.medium.com",
+      "snippet": "Feb 2, 2025 ... Design lost to AI even before AI got any good at design. Design is over. We lost the battle with AI. But not in the way you think.",
+      "htmlSnippet": "Feb 2, 2025 <b>...</b> <b>Design</b> lost to AI even before AI got any good at <b>design</b>. <b>Design</b> is over. We lost the battle with AI. But not in the way you think.",
+      "formattedUrl": "https://michalmalewicz.medium.com/is-web-design-over-c14fe246125e",
+      "htmlFormattedUrl": "https://michalmalewicz.medium.com/is-<b>web</b>-<b>design</b>-over-c14fe246125e",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKNzDJai06wqvsOv93_3RAS58Idvx9I_DrE0IM2X3kkPwaOKjPtkm3lDk&s",
+            "width": "302",
+            "height": "167"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://miro.medium.com/v2/resize:fit:1200/1*LLjUYWOxSlUqpYtfudMe_Q.jpeg",
+            "twitter:app:url:iphone": "medium://p/c14fe246125e",
+            "theme-color": "#000000",
+            "article:published_time": "2025-02-02T19:18:32.898Z",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Medium",
+            "al:android:package": "com.medium.reader",
+            "twitter:label1": "Reading time",
+            "twitter:app:id:iphone": "828256236",
+            "title": "Is Web Design over?. AI still can\u2019t design. We lost anyway. | by Michal Malewicz | Feb, 2025 | Medium",
+            "al:ios:url": "medium://p/c14fe246125e",
+            "og:description": "AI still can\u2019t design. We lost anyway.",
+            "twitter:creator": "@michalmalewicz",
+            "al:ios:app_store_id": "828256236",
+            "twitter:data1": "9 min read",
+            "twitter:image:alt": "Design lost to AI even before AI got any good at design.",
+            "twitter:site": "@Medium",
+            "og:type": "article",
+            "og:image:alt": "Design lost to AI even before AI got any good at design.",
+            "twitter:title": "Is Web Design over?",
+            "al:ios:app_name": "Medium",
+            "author": "Michal Malewicz",
+            "og:title": "Is Web Design over?",
+            "al:web:url": "https://michalmalewicz.medium.com/is-web-design-over-c14fe246125e",
+            "article:author": "https://michalmalewicz.medium.com",
+            "twitter:image:src": "https://miro.medium.com/v2/resize:fit:1200/1*LLjUYWOxSlUqpYtfudMe_Q.jpeg",
+            "al:android:url": "medium://p/c14fe246125e",
+            "referrer": "unsafe-url",
+            "fb:app_id": "542599432471018",
+            "viewport": "width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1",
+            "twitter:description": "AI still can\u2019t design. We lost anyway.",
+            "og:url": "https://michalmalewicz.medium.com/is-web-design-over-c14fe246125e",
+            "twitter:app:name:iphone": "Medium",
+            "al:android:app_name": "Medium"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://miro.medium.com/v2/resize:fit:1200/1*LLjUYWOxSlUqpYtfudMe_Q.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "What is Web Design? | IxDF",
+      "htmlTitle": "What is <b>Web Design</b>? | IxDF",
+      "link": "https://www.interaction-design.org/literature/topics/web-design",
+      "displayLink": "www.interaction-design.org",
+      "snippet": "Get a comprehensive and up-to-date overview of web design, along with tips and best practices.",
+      "htmlSnippet": "Get a comprehensive and up-to-date overview of <b>web design</b>, along with tips and best practices.",
+      "formattedUrl": "https://www.interaction-design.org/literature/topics/web-design",
+      "htmlFormattedUrl": "https://www.interaction-<b>design</b>.org/literature/topics/<b>web</b>-<b>design</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQzPgXxGLxWF7-sKEqckbxLhbsyg27hMpnceSdy75-qhJ8S8qfvH_uHXz2&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "application-name": "UX courses",
+            "msapplication-config": "/ms-app-browserconfig.xml",
+            "og:image": "https://public-images.interaction-design.org/og-images/tag/d9f9db393a47e786dcc0a83808945843.jpg",
+            "theme-color": "#404040",
+            "twitter:title": "What is Web Design?",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "The Interaction Design Foundation",
+            "apple-mobile-web-app-title": "UX courses",
+            "og:title": "What is Web Design?",
+            "og:description": "Get a comprehensive and up-to-date overview of web design, along with tips and best practices.",
+            "twitter:creator": "@ixdf_org",
+            "fb:app_id": "142481353231314",
+            "twitter:site": "@ixdf_org",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Get a comprehensive and up-to-date overview of web design, along with tips and best practices.",
+            "csrf-token": "IS11m2aIz3qRkuEuGBNwWoTsqpBUpktJvkZaPfWQ",
+            "fb:page_id": "19975077227",
+            "og:url": "https://www.interaction-design.org/literature/topics/web-design"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://public-images.interaction-design.org/og-images/tag/d9f9db393a47e786dcc0a83808945843.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "10 Principles Of Good Web Design \u2014 Smashing Magazine",
+      "htmlTitle": "10 Principles Of Good <b>Web Design</b> \u2014 Smashing Magazine",
+      "link": "https://www.smashingmagazine.com/2008/01/10-principles-of-effective-web-design/",
+      "displayLink": "www.smashingmagazine.com",
+      "snippet": "Oct 1, 2021 ... we focus on the main principles, heuristics and approaches for effective web design \u2014 approaches which, used properly, can lead to more\u00a0...",
+      "htmlSnippet": "Oct 1, 2021 <b>...</b> we focus on the main principles, heuristics and approaches for effective <b>web design</b> \u2014 approaches which, used properly, can lead to more&nbsp;...",
+      "formattedUrl": "https://www.smashingmagazine.com/.../10-principles-of-effective-web-desi...",
+      "htmlFormattedUrl": "https://www.smashingmagazine.com/.../10-principles-of-effective-<b>web</b>-<b>desi</b>...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRepqNUDt-G76lI2wC8uO4qOJaiUHHMmvTCWSm9-Se11GOvuBHTXgjTVrs&s",
+            "width": "251",
+            "height": "201"
+          }
+        ],
+        "metatags": [
+          {
+            "p:domain_verify": "40d67b22ec16f115be9bb71c7405d527",
+            "og:image": "https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/7dcfdae9-3d7e-448c-bf3d-20d10c6f27ae/cameron.jpg",
+            "og:type": "article",
+            "article:section": "General",
+            "article:published_time": "2008-01-31 16:16:49 +0000 UTC",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "10 Principles Of Good Web Design \u2014 Smashing Magazine",
+            "theme-color": "#d33a2c",
+            "og:site_name": "Smashing Magazine",
+            "og:title": "10 Principles Of Good Web Design \u2014 Smashing Magazine",
+            "og:updated_time": "2008-01-31 16:16:49 +0000 UTC",
+            "og:description": "If users can\u2019t use a feature, it might as well not exist. Let\u2019s explore the guidelines of good web design and effective interface design.",
+            "fb:pages": "45576747489",
+            "article:publisher": "https://www.facebook.com/smashmag",
+            "article:author": "https://www.smashingmagazine.com/author/vitaly-friedman/",
+            "twitter:image": "https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/7dcfdae9-3d7e-448c-bf3d-20d10c6f27ae/cameron.jpg",
+            "dc.date.issued": "2008-01-31 16:16:49 +0000 UTC",
+            "article:tag": "UX",
+            "twitter:site": "@smashingmag",
+            "article:modified_time": "2008-01-31 16:16:49 +0000 UTC",
+            "viewport": "width=device-width,initial-scale=1",
+            "twitter:description": "If users can\u2019t use a feature, it might as well not exist. Let\u2019s explore the guidelines of good web design and effective interface design.",
+            "og:locale": "en_US",
+            "og:url": "https://www.smashingmagazine.com/2008/01/10-principles-of-effective-web-design/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/7dcfdae9-3d7e-448c-bf3d-20d10c6f27ae/cameron.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Web Design for Everybody: Basics of Web Development & Coding ...",
+      "htmlTitle": "<b>Web Design</b> for Everybody: Basics of <b>Web Development</b> &amp; Coding ...",
+      "link": "https://www.coursera.org/specializations/web-design",
+      "displayLink": "www.coursera.org",
+      "snippet": "Learn to design and create websites. Build a responsive and accessible web portfolio using HTML5, CSS3, and JavaScript.",
+      "htmlSnippet": "Learn to <b>design</b> and create <b>websites</b>. Build a responsive and accessible <b>web</b> portfolio using HTML5, CSS3, and JavaScript.",
+      "formattedUrl": "https://www.coursera.org/specializations/web-design",
+      "htmlFormattedUrl": "https://www.coursera.org/specializations/<b>web</b>-<b>design</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZS-COle0nR5Q9OsAHPiiLB4QApTECaCD1wy9CBJr9_I7PVd0hqfar8685&s",
+            "width": "310",
+            "height": "162"
+          }
+        ],
+        "metatags": [
+          {
+            "twitter:app:id:googleplay": "org.coursera.android",
+            "qc:admins": "366737676376375235216727",
+            "og:image": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/XDP/XDP~SPECIALIZATION!~web-design/XDP~SPECIALIZATION!~web-design.jpeg",
+            "theme-color": "#0056D2",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Coursera",
+            "twitter:app:name:googleplay": "Coursera",
+            "twitter:app:id:iphone": "id736535961",
+            "msapplication-tileimage": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/mstile-v2-144x144.png",
+            "og:description": "Offered by University of Michigan. Learn to Design and Create Websites. Build a responsive and accessible web portfolio using HTML5, CSS3, ... Enroll for free.",
+            "twitter:image": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/XDP/XDP~SPECIALIZATION!~web-design/XDP~SPECIALIZATION!~web-design.jpeg",
+            "twitter:site": "Coursera",
+            "fb:admins": "727836538,4807654",
+            "msapplication-tilecolor": "#2d89ef",
+            "image": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/XDP/XDP~SPECIALIZATION!~web-design/XDP~SPECIALIZATION!~web-design.jpeg",
+            "og:type": "website",
+            "twitter:title": "Web Design for Everybody: Basics of Web Development & Coding",
+            "og:title": "Web Design for Everybody: Basics of Web Development & Coding",
+            "twitter:app:id:ipad": "id736535961",
+            "yandex-verification": "4970cfdb825622c7",
+            "twitter:image:src": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/XDP/XDP~SPECIALIZATION!~web-design/XDP~SPECIALIZATION!~web-design.jpeg",
+            "fb:app_id": "823425307723964",
+            "twitter:app:name:ipad": "Coursera",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Offered by University of Michigan. Learn to Design and ... Enroll for free.",
+            "og:locale": "en_US",
+            "og:url": "https://www.coursera.org/specializations/web-design",
+            "twitter:app:name:iphone": "Coursera"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/XDP/XDP~SPECIALIZATION!~web-design/XDP~SPECIALIZATION!~web-design.jpeg"
+          }
+        ],
+        "Course": [
+          {}
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Web Design - The First 100 Years",
+      "htmlTitle": "<b>Web Design</b> - The First 100 Years",
+      "link": "https://idlewords.com/talks/web_design_first_100_years.htm",
+      "displayLink": "idlewords.com",
+      "snippet": "When I talk about a hundred years of web design, I mean it as a challenge. There's no law that says that things are guaranteed to keep getting better.",
+      "htmlSnippet": "When I talk about a hundred years of <b>web design</b>, I mean it as a challenge. There&#39;s no law that says that things are guaranteed to keep getting better.",
+      "formattedUrl": "https://idlewords.com/talks/web_design_first_100_years.htm",
+      "htmlFormattedUrl": "https://idlewords.com/talks/<b>web</b>_<b>design</b>_first_100_years.htm",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLBAMaOeDNpyithPlNfh36W24Gbyq-MxTe6XqaR1Tr88c5hldO6azLgBk&s",
+            "width": "250",
+            "height": "188"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://static.pinboard.in/w100/thumbs/w100.003.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Web Design | IT & Web Programs - Seattle",
+      "htmlTitle": "<b>Web Design</b> | IT &amp; Web Programs - Seattle",
+      "link": "https://it.seattlecentral.edu/programs/web-design",
+      "displayLink": "it.seattlecentral.edu",
+      "snippet": "Seattle Central College's Web Design certificate program and associate degree will provide you with specialized web typography and graphic design skills\u00a0...",
+      "htmlSnippet": "Seattle Central College&#39;s <b>Web Design</b> certificate program and associate degree will provide you with specialized web typography and graphic design skills&nbsp;...",
+      "formattedUrl": "https://it.seattlecentral.edu/programs/web-design",
+      "htmlFormattedUrl": "https://it.seattlecentral.edu/programs/<b>web</b>-<b>design</b>",
+      "pagemap": {
+        "metatags": [
+          {
+            "handheldfriendly": "true",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "mobileoptimized": "width"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "A Dao of Web Design \u2013 A List Apart",
+      "htmlTitle": "A Dao of <b>Web Design</b> \u2013 A List Apart",
+      "link": "https://alistapart.com/article/dao/",
+      "displayLink": "alistapart.com",
+      "snippet": "Apr 7, 2000 ... It can be a cheap trick, but lately it has struck me that there is more than a little to be understood about web design by looking through the prism of the Tao.",
+      "htmlSnippet": "Apr 7, 2000 <b>...</b> It can be a cheap trick, but lately it has struck me that there is more than a little to be understood about <b>web design</b> by looking through the prism of the Tao.",
+      "formattedUrl": "https://alistapart.com/article/dao/",
+      "htmlFormattedUrl": "https://alistapart.com/article/dao/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSQVcj5hzZu8XUmcTf0J6ptRaPXyhAB5dO4DwkllHsZi9W3GzB3H9a1tbu&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "person": [
+          {
+            "name": "John Allsopp",
+            "url": "John Allsopp"
+          },
+          {
+            "name": "Gerry Duffy",
+            "url": "Gerry Duffy"
+          },
+          {
+            "name": "Colin Eagan",
+            "url": "Colin Eagan"
+          },
+          {
+            "name": "Jeffrey MacIntyre",
+            "url": "Jeffrey MacIntyre"
+          },
+          {
+            "name": "Ste Grainer",
+            "url": "Ste Grainer"
+          },
+          {
+            "name": "Aaron Gustafson",
+            "url": "Aaron Gustafson"
+          },
+          {
+            "name": "Jeffrey Zeldman",
+            "url": "Jeffrey Zeldman"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://i0.wp.com/alistapart.com/wp-content/uploads/2019/03/cropped-icon_navigation-laurel-512.jpg?fit=512%2C512&ssl=1",
+            "og:type": "article",
+            "article:published_time": "2000-04-07T08:00:45+00:00",
+            "og:image:width": "512",
+            "twitter:card": "summary",
+            "og:site_name": "A List Apart",
+            "monetization": "$ilp.uphold.com/Kh7NgDU9kqp3",
+            "og:title": "A Dao of Web Design",
+            "og:image:height": "512",
+            "msapplication-tileimage": "https://i0.wp.com/alistapart.com/wp-content/uploads/2019/03/cropped-icon_navigation-laurel-512.jpg?fit=270%2C270&ssl=1",
+            "og:description": "Web designers often bemoan the malleable nature of the web, which seems to defy our efforts at strict control over layout and typography. But maybe the problem is not the web. Maybe the problem is \u2026",
+            "twitter:image": "https://i0.wp.com/alistapart.com/wp-content/uploads/2019/03/cropped-icon_navigation-laurel-512.jpg?fit=240%2C240&ssl=1",
+            "twitter:text:title": "A Dao of Web Design",
+            "twitter:site": "@alistapart",
+            "article:modified_time": "2019-11-26T13:48:59+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://alistapart.com/article/dao/"
+          }
+        ],
+        "webpage": [
+          {
+            "copyrightholder": "A List Apart & Our Authors",
+            "copyrightyear": "1998\u20132025",
+            "url": "Permissions & Copyright"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i0.wp.com/alistapart.com/wp-content/uploads/2019/03/cropped-icon_navigation-laurel-512.jpg?fit=512%2C512&ssl=1"
+          }
+        ],
+        "hatomfeed": [
+          {}
+        ],
+        "article": [
+          {
+            "headline": "A Dao of Web Design"
+          }
+        ],
+        "sitenavigationelement": [
+          {
+            "name": "Home",
+            "url": "Home"
+          },
+          {
+            "url": "About"
+          }
+        ]
+      }
+    }
+  ]
+}
