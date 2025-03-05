@@ -1,9 +1,11 @@
-# prompt_builder.py
 from langchain_core.messages import SystemMessage, HumanMessage
 
-def build_prompt(blog_topic: str, extracted_keywords_str: str, blog_length: int = 1000) -> list:
+
+def build_prompt(
+    blog_topic: str, extracted_keywords_str: str, blog_length: int = 1000
+) -> list:
     """
-    Constructs a structured prompt for an AI model to generate an SEO-optimized blog post 
+    Constructs a structured prompt for an AI model to generate an SEO-optimized blog post
     using specified keywords and image descriptions.
 
     Parameters:
@@ -64,7 +66,6 @@ def build_prompt(blog_topic: str, extracted_keywords_str: str, blog_length: int 
     human_message = HumanMessage(content=user_prompt)
 
     return [system_message, human_message]
-
 
 
 # print('build_prompt(web design): ', build_prompt('web design'))

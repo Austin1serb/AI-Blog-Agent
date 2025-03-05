@@ -2,7 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 from newspaper import Article
 from typing import Optional
-from tools.google_search import get_top_blog_post
+
+
 def extract_article_content(url: str) -> Optional[str]:
     """
     Fetches and extracts the main article text from a blog post URL.
@@ -42,7 +43,9 @@ def extract_article_content(url: str) -> Optional[str]:
             return None
 
         # Remove unnecessary elements like ads, scripts, sidebars
-        for unwanted in article_content.find_all(["script", "style", "aside", "nav", "footer"]):
+        for unwanted in article_content.find_all(
+            ["script", "style", "aside", "nav", "footer"]
+        ):
             unwanted.extract()
 
         return article_content.get_text(separator="\n", strip=True)
@@ -51,7 +54,7 @@ def extract_article_content(url: str) -> Optional[str]:
         print(f"BeautifulSoup failed: {e}")
         return None
 
-# Example usage
-url = get_top_blog_post("web design")['url']
-article_text = extract_article_content(url)
-# print(article_text)
+
+# ? Example usage
+# url = get_top_blog_post("web design")['url']
+# article_text = extract_article_content(url)
