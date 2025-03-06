@@ -4,13 +4,11 @@ from langgraph.graph import StateGraph
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 import json
 import logging
-import time
+
 
 # Import functions
 from core.prompt_builder import build_prompt
-from tools.tokenize_text import (
-    extract_keywords_from_text,
-)  # Ensure this function is imported
+from tools.tokenize_text import extract_keywords_from_text
 from tools.google_search import get_top_blog_post
 from tools.web_scraper import extract_article_content
 from typing import TypedDict, List
@@ -69,22 +67,28 @@ def get_blog_url_from_google(state: WorkflowState) -> WorkflowState:
     blog_url = get_top_blog_post(user_query)  # ✅ Call Google API function
     logging.info(f"✅ Found Blog URL: {blog_url}")
 
-    time.wait(1)
     return {**state, "blog_url": blog_url}  # ✅ Add `blog_url` to state
 
 
 # --- Step 2: Scrape blog post URL ---
 def scrape_blog_url(state: WorkflowState) -> WorkflowState:
-    """Crawls web page and returns article text"""
     logging.info(f"🔍 Scraping blog article...")
-    blog_url_data = state.get("blog_url", {})
+
+    # ✅ Ensure "blog_url" exists before calling .get()
+    blog_url_data = state.get("blog_url", None)
+
+    if not blog_url_data or not isinstance(blog_url_data, dict):
+        logging.error("❌ No valid blog URL found in state!")
+        return state  # ✅ Return unchanged state if blog_url is missing
+
     url = blog_url_data.get("url", None)
+
     if not url:
-        logging.error("❌ No blog URL found in state!")
-        return state  # Return unchanged state
+        logging.error("❌ Blog URL exists but is empty!")
+        return state  # ✅ Return unchanged state
+
     scrapped_url = extract_article_content(url)
-    logging.info(f"✅  Blog article URL: {url}")
-    time.wait(1)
+    logging.info(f"✅ Scraped Blog Article Successfully")
 
     return {**state, "blog_article_original": scrapped_url}
 
@@ -96,7 +100,7 @@ def extract_keywords_node(state: WorkflowState) -> WorkflowState:
     document = state.get("blog_article_original", "")
     extracted_keywords_str = extract_keywords_from_text(document)
     logging.info(f"📌 Extracted Keywords: {extracted_keywords_str}")
-    time.wait(1)
+
     # ✅ Store extracted keywords correctly as a user message
     return {**state, "extracted_keywords": extracted_keywords_str}
 
@@ -122,7 +126,6 @@ def format_prompt_messages(state: WorkflowState) -> WorkflowState:
     prompt_messages = build_prompt(
         blog_topic=user_input, extracted_keywords_str=extracted_keywords
     )
-
     if SELECTED_MODEL == "o1-preview":
         # ❌ o1-preview does NOT support system messages, merge into a single user message
         combined_message = "\n\n".join([msg.content for msg in prompt_messages])
@@ -131,7 +134,6 @@ def format_prompt_messages(state: WorkflowState) -> WorkflowState:
             **state,
             "gpt_prompt": [HumanMessage(content=combined_message)],
         }
-    time.wait(1)
     # ✅ gpt-4o supports system messages, format them properly
     return {
         **state,

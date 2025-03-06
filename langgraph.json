@@ -1,6 +1,6 @@
 {
   "graphs": {
-    "my_graph": "./workflows/langgraph.py:get_workflow"
+    "my_graph": "./workflows/main.py:get_workflow"
   },
   "dependencies": [
     "."
