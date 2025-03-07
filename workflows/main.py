@@ -196,6 +196,7 @@ def get_workflow():
     workflow.add_node("format_prompt", format_prompt_messages)
     workflow.add_node("generate_blog", generate_blog_w_gpt)
 
+
     # ✅ Step 2: Define execution order (edges)
     workflow.set_entry_point("get_blog_url")  # 🔹 Start here
     workflow.add_edge("get_blog_url", "scrape_blog")
